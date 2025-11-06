@@ -1,5 +1,5 @@
-#message="I am the first text\n I am the second text\nI am the third text"
-with open("text.txt","a",encoding="utf-8")as file:
-    file.write("\nThis is the appended line.")
-with open("text.txt","r") as file:
-    print(file.read())
+import re
+numbers="My phone numbers 078922938221 and 0748889448"
+pattern=r"\d+"
+search=re.findall(pattern,numbers)
+print(search)
