@@ -1,4 +1,4 @@
-#This is not a RegEx tutorial
+#Welcome to a RegEx Tutorial
 #import re
 
 #There are four functions. findall(),search(),split(),sub()
@@ -24,12 +24,14 @@ print(x)
 
 # This code uses regular expression \d+ to find all sequences of one or more digits in the given string.
 
+"""
 import re
 string = "Hello my Number is 123456789 and my friend's number is 987654321"
             
 regex = '\d+'
 match = re.findall(regex, string)
 print(match)
+"""
 
 #3) split() -returns a list where the string has been split at each match
 """
